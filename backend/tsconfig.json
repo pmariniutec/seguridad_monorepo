@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "outDir": "./build/",
+        "jsx": "react",
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "target": "es6",
+        "sourceMap": true,
+        "lib": ["es6", "es2020", "dom", "scripthost"],
+        "plugins": [
+            {
+                "name": "tslint-language-service"
+            }
+        ]
+    },
+    "include": ["./src/**/*", "./scripts/**/*"],
+    "exclude": ["node_modules"]
+}
